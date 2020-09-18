@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_calender">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp"
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:gravity="end"
+                android:text="@string/time" />
+
+            <EditText
+                android:id="@+id/txt_time"
+                android:hint="@string/time_of_the_event"
+                android:inputType="time" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:gravity="end"
+                android:text="@string/description" />
+
+            <EditText
+                android:id="@+id/txt_desc"
+                android:hint="@string/event_description"
+                android:inputType="text" />
+
+        </TableRow>
+
+
+
+        <TableRow android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/button_cancel_user_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="40dp"
+                android:gravity="center_horizontal"
+                android:onClick="onBtnCancel"
+                android:text="@string/cancel"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+
+
+            <Button
+                android:id="@+id/button_delete_event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="40dp"
+                android:gravity="center_horizontal"
+                android:onClick="onSaveEvent"
+                android:text="@string/save_event"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

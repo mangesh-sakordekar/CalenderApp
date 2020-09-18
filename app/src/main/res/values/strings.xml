@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Calender App</string>
+    <string name="txt_schedule">Today\'s Schedule</string>
+    <string name="events">Events</string>
+    <string name="calendar">Calendar</string>
+    <string name="notifications">Notifications</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="submit">Submit</string>
+    <string name="time">Time:</string>
+    <string name="time_of_the_event">Time of the event</string>
+    <string name="description">Description:</string>
+    <string name="event_description">Event description</string>
+    <string name="cancel">Cancel</string>
+    <string name="save_event">Save Event</string>
+    <string name="create_account">Create Account</string>
+    <string name="events_for_tomorrow">Events for Tomorrow</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="txt_back"><![CDATA[<]]></string>
+</resources>
